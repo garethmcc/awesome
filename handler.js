@@ -5,7 +5,7 @@ module.exports.hello = async event => {
     statusCode: 200,
     body: JSON.stringify(
       {
-        message: 'Custom message here',
+        message: 'Custom message here again',
         input: event,
       },
       null,
