@@ -106,19 +106,19 @@ functions:
 #      variable2: value2
 
 # you can add CloudFormation resource templates here
-#resources:
-#  Resources:
-#    myDynamoDbTable:
-#      Type: AWS::DynamoDB::Table
-#      Properties:
-#        TableName: ${self:service}-mytable-${opt:stage, self:provider.stage}
-#        AttributeDefinitions:
-#          - AttributeName: PK
-#            AttributeType: S
-#        KeySchema:
-#          - AttributeName: PK
-#            KeyType: HASH
-#        BillingMode: PAY_PER_REQUEST
+resources:
+  Resources:
+    myDynamoDbTable:
+      Type: AWS::DynamoDB::Table
+      Properties:
+        TableName: ${self:service}-mytable-${opt:stage, self:provider.stage}
+        AttributeDefinitions:
+          - AttributeName: PK
+            AttributeType: S
+        KeySchema:
+          - AttributeName: PK
+            KeyType: HASH
+        BillingMode: PAY_PER_REQUEST
 
 #    NewResource:
 #      Type: AWS::S3::Bucket

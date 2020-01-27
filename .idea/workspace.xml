@@ -3,7 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="768e07a0-e09b-4375-858c-9ae150bb8365" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/handler.js" beforeDir="false" afterPath="$PROJECT_DIR$/handler.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/serverless.yml" beforeDir="false" afterPath="$PROJECT_DIR$/serverless.yml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -56,7 +56,7 @@
       <updated>1580045457235</updated>
       <workItem from="1580045458640" duration="626000" />
       <workItem from="1580053512727" duration="124000" />
-      <workItem from="1580115798171" duration="2949000" />
+      <workItem from="1580115798171" duration="3185000" />
     </task>
     <task id="LOCAL-00001" summary="Updated configuration with dynamodb table">
       <created>1580116726219</created>
@@ -65,7 +65,14 @@
       <option name="project" value="LOCAL" />
       <updated>1580116726219</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Made change">
+      <created>1580145007588</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1580145007588</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -73,16 +80,25 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Updated configuration with dynamodb table" />
-    <option name="LAST_COMMIT_MESSAGE" value="Updated configuration with dynamodb table" />
+    <MESSAGE value="Made change" />
+    <option name="LAST_COMMIT_MESSAGE" value="Made change" />
   </component>
   <component name="WindowStateProjectService">
     <state x="515" y="1134" width="879" height="997" key="CommitChangelistDialog2" timestamp="1580116726027">
       <screen x="0" y="1080" width="1920" height="1080" />
     </state>
+    <state x="290" y="25" width="1330" height="1055" key="CommitChangelistDialog2.inPresentationMode" timestamp="1580145007463">
+      <screen x="0" y="25" width="1920" height="1055" />
+    </state>
+    <state x="290" y="25" width="1330" height="1055" key="CommitChangelistDialog2.inPresentationMode/0.1080.1920.1080/0.25.1920.1055@0.25.1920.1055" timestamp="1580145007463" />
     <state x="515" y="1134" width="879" height="997" key="CommitChangelistDialog2/0.1080.1920.1080/0.0.1920.1080@0.1080.1920.1080" timestamp="1580116726027" />
     <state x="555" y="1364" width="800" height="536" key="Vcs.Push.Dialog.v2" timestamp="1580116730024">
       <screen x="0" y="1080" width="1920" height="1080" />
     </state>
+    <state x="355" y="130" width="1200" height="790" key="Vcs.Push.Dialog.v2.inPresentationMode" timestamp="1580145009821">
+      <screen x="0" y="25" width="1920" height="1055" />
+    </state>
+    <state x="355" y="130" width="1200" height="790" key="Vcs.Push.Dialog.v2.inPresentationMode/0.1080.1920.1080/0.25.1920.1055@0.25.1920.1055" timestamp="1580145009821" />
     <state x="555" y="1364" width="800" height="536" key="Vcs.Push.Dialog.v2/0.1080.1920.1080/0.0.1920.1080@0.1080.1920.1080" timestamp="1580116730024" />
   </component>
 </project>
