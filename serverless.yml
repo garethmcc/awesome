@@ -13,8 +13,8 @@
 
 service: awesome
 # app and org for use with dashboard.serverless.com
-app: awesome
-org: garethmcc
+app: course
+org: garethmccumskey
 
 # You can pin your service to only deploy with a specific Serverless version
 # Check out our docs for more details
@@ -118,7 +118,7 @@ resources:
         KeySchema:
           AttributeName: PK
           KeyType: HASH
-        BillingMode: 
+        BillingMode:
 
 #    NewResource:
 #      Type: AWS::S3::Bucket
